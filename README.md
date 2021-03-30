@@ -2,7 +2,7 @@
 
 This is a minimal way to get started learning Docker.
 
-![Docker Terms](docker-terms.png)
+![Docker Terms](readme_images/docker-terms.png)
 
 ### Files
 - `docker_demo` directory - this is a simple Django project
@@ -44,3 +44,8 @@ Retrieve an image from the container registry:
 Run an image from the container registry:
 - `docker run -p 8000:8000 -e MAGIC_MESSAGE="Docker command line" cyface/docker-demo`
 - Try this from your machine!
+
+### More Pictures
+![Docker Terms](readme_images/docker-runtime.png)
+![Docker Terms](readme_images/docker-k8s.png)
+![Docker Terms](readme_images/docker-layers.png)
