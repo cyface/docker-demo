@@ -12,6 +12,7 @@ This is a minimal way to get started learning Docker.
 - `manage.py` - Docker management command file that invokes docker_demo project
 - `Dockerfile` - Docker file to enable building an image containing python and this Django project
 - `docker-compose.yml` - Docker Compose file to enable starting up Docker with common options
+- `requirements.txt` - Python requirements file, used by Docker to install django in the image
 
 ### Commands
 
