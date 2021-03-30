@@ -3,6 +3,6 @@ services:
   django:
     image: docker-demo
     environment:
-      MAGIC_MESSAGE: Docker Compose
+     - MAGIC_MESSAGE=Docker Compose
     ports:
       - "8000:8000"
