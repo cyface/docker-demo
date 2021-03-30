@@ -18,11 +18,11 @@ This is a minimal way to get started learning Docker.
 Build the Dockerfile into a runnable image:
 - `docker build --tag docker-demo .`
 
-Run the image you just built, exposing port 8000:
+Run the image you just built, exposing port 8000 on the host, pointing to port 8000 inside the container:
 - `docker run -p 8000:8000 docker-demo`
 - Ctrl-C to stop this ^^^
 
-Run the image you just built, exposing port 8000 and setting the MAGIC_MESSAGE environment variable:
+Run the image you just built, exposing port 8000 and setting the `MAGIC_MESSAGE` environment variable:
 - `docker run -p 8000:8000 -e MAGIC_MESSAGE="Docker command line" docker-demo`
 - Ctrl-C to stop this ^^^
 
