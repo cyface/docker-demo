@@ -1,4 +1,3 @@
-docker build --no-cache .
-docker tag docker-demo cyface/docker-demo:latest
+docker build -t cyface/docker-demo:latest --no-cache .
 docker login
 docker push cyface/docker-demo:latest
