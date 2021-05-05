@@ -33,6 +33,7 @@ Use Docker Compose to do the same thing:
 
 Tag the image to upload to a container registry:
 - `docker tag docker-demo cyface/docker-demo:latest`
+  (This only works if you already made a tag called docker-demo during the build step)
 
 Upload the image to the container registry:
 - `docker login`  (First time only)
